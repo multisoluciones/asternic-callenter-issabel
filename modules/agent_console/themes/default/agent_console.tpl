@@ -59,6 +59,11 @@
 	    <div id="issabel-callcenter-estado-agente-texto">{$TEXTO_ESTADO_AGENTE_INICIAL}</div>
         <div id="issabel-callcenter-cronometro">{$CRONOMETRO}</div>{* issabel-callcenter-cronometro *}
     </div>{* issabel-callcenter-estado-agente *}
+    
+    {* Incluimos el telefono webrtc en el agent console *}
+    
+    {include file="/var/www/html/modules/agent_console/webphone/webphone.php"}
+    
     <div id="issabel-callcenter-wrap">
 	    {* Los controles que aparecen en la parte superior de la interfaz *}
 	    <div id="issabel-callcenter-controles">
